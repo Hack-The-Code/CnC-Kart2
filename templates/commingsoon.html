@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ALL Products - CnC-Kart</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/62ad0fd3f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+<body>
+    <!-- <div class="header"> -->
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="/"><img src="/static/res/c2_new_final.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/product1">Product</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/account">Account</a></li>
+                        
+                    </ul>
+                </nav>
+                <div class="cart">
+                    <a href="/cart"><i class="fas fa-shopping-cart"></i><sup><span>0</span></sup></a>
+                </div>
+                <!-- <i class="fa fa-bars" onclick="menutoggle()"></i> -->
+                <img class="menu_icon" src="/static/res/download (3).png" onclick="menutoggle()" width="30px" height="30px">
+            </div>
+        </div>
+    <!-- </div> -->
+        <h1 fontsize='200px' class="comming_soon">Comming Soon . . .</h1>
+        <div class="page-btn">
+            <a href="product1.html"><span>1</span></a>
+            <a href="product2.html"><span>2</span></a>
+            <a href="product3.html"><span>3</span></a>
+            <a href="product4.html"><span>4</span></a>
+            <a href="commingsoon.html"><span>&#8594;</span></a>
+        </div>
+    </div>
+
+<!-------------Footer----------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App For Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="/static/res/download (1).png" alt="">
+                        <!-- <img src="/static/res/download (2).png" alt=""> -->
+                        <i class="fab fa-apple fa-7x"></i>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/static/res/CNC.png" alt="">
+                    <p>Our Purpose Is To Sustainablity Make the Pleasure<br>Benifits of Sports Accessiblity to the Many</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><i class="fas fa-sticky-note"></i> Coupons</li>
+                        <li><i class="fas fa-blog"></i> Blog Post</li>
+                        <li><i class="fas fa-exchange-alt"></i> Return Policy</li>
+                        <li><i class="fas fa-sign-in-alt"></i> Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><i class="fab fa-facebook"></i> FaceBook</li>
+                        <li><i class="fab fa-twitter-square"></i> Twitter</li>
+                        <li><i class="fab fa-instagram"></i> Instagram</li>
+                        <li><i class="fab fa-youtube"></i> Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Hack The Code</p>
+        </div>
+    </div>
+<!------------JS for toggle Menu---------->
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+    <script src="/static/function.js"></script>
+</body>
+</html>

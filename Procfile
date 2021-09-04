@@ -1,0 +1,1 @@
+web: gunicorn CnC-kart:app

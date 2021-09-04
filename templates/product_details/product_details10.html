@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - CnC-Kart</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/62ad0fd3f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+<body>
+    <!-- <div class="header"> -->
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <<a href="/"><img src="/static/res/c2_new_final.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/product1">Product</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/account">Account</a></li>
+                        
+                    </ul>
+                </nav>
+                <div class="cart">
+                    <a href="/cart"><i class="fas fa-shopping-cart"></i><sup><span>0</span></sup></a>
+                </div>
+                <!-- <i class="fa fa-bars" onclick="menutoggle()"></i> -->
+                <img class="menu_icon" src="/static/res/download (3).png" onclick="menutoggle()" width="30px" height="30px">
+            </div>
+        </div>
+    <!-- </div> -->
+<!----------single product details---------->
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="/static/res/products/green1.png" width="100%" id="ProductImg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="/static/res/products/green1.png" width="100%" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home / T-Shirt</p>
+                <h1>Green T-Shirt</h1>
+                <h4>Rs. 595/-</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XXXL</option>
+                    <option>XXl</option>
+                    <option>XL</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                </select>
+                <input type="Number" value="1">
+                <div class="add-cart">
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+                <h3>Product Details <i class="fa fa-indent" aria-hidden="true"></i></h3>
+                <br>
+                <p>Description</p>
+            </div>
+        </div>
+    </div>
+<!------------title------------>
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <a href="/product1"><p>View more</p></a>
+        </div>
+    </div>
+<!-------------products--------->
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <img src="/static/res/download.png">
+                <h4>Red T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs. 500</p>
+            </div>
+            <div class="col-4">
+                <img src="/static/res/download.png">
+                <h4>Blue T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+                </div>
+                <p>Rs. 500</p>
+            </div>
+            <div class="col-4">
+                <img src="/static/res/download.png">
+                <h4>Green T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs. 500</p>
+            </div>
+            <div class="col-4">
+                <img src="/static/res/download.png">
+                <h4>Black T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs. 500</p>
+            </div>
+        </div>
+        
+    </div>
+
+<!-------------Footer----------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App For Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="/static/res/download (1).png" alt="">
+                        <!-- <img src="res/download (2).png" alt=""> -->
+                        <i class="fab fa-apple fa-7x"></i>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/static/res/CNC.png" alt="">
+                    <p>Our Purpose Is To Sustainablity Make the Pleasure<br>Benifits of Sports Accessiblity to the Many</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><i class="fas fa-sticky-note"></i> Coupons</li>
+                        <li><i class="fas fa-blog"></i> Blog Post</li>
+                        <li><i class="fas fa-exchange-alt"></i> Return Policy</li>
+                        <li><i class="fas fa-sign-in-alt"></i> Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><i class="fab fa-facebook"></i> FaceBook</li>
+                        <li><i class="fab fa-twitter-square"></i> Twitter</li>
+                        <li><i class="fab fa-instagram"></i> Instagram</li>
+                        <li><i class="fab fa-youtube"></i> Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Hack The Code</p>
+        </div>
+    </div>
+<!------------JS for toggle Menu---------->
+<script>
+    var MenuItemsWebpage = document.getElementById("MenuItems")
+    MenuItemsWebpage.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+<!--------JS for product gallery------------>
+<script>
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg =document.getElementsByClassName("small-img");
+    SmallImg[0].onclick = function(){
+        ProductImg.src = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function(){
+        ProductImg.src = SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function(){
+        ProductImg.src = SmallImg[2].src;
+    }
+    SmallImg[3].onclick = function(){
+        ProductImg.src = SmallImg[3].src;
+    }
+</script>
+  <script  src="/static/function.js"></script>
+</body>
+</html>
