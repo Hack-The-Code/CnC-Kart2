@@ -21,7 +21,7 @@ def product2():
     return render_template('product2.html')
 @app.route("/product3")
 def product3():
-    return render_template('product13.html')
+    return render_template('product3.html')
 @app.route("/product4")
 def product4():
     return render_template('product4.html')
