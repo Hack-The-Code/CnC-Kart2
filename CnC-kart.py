@@ -38,7 +38,7 @@ def account():
     return render_template('account.html')
 @app.route("/account2")
 def account2():
-    return render_template('account2.html')
+    return render_template('account_2.html')
 
 @app.route("/product_details1")
 def product_details1():
